@@ -69,6 +69,7 @@ DEBUG = 'DEV' in os.environ
 
 AALLOWED_HOSTS = [
     os.environ.get('ALLOWED_HOST'),
+    'interactopia-api-e9e9ddc66214.herokuapp.com',
     'localhost',
 ]
 
